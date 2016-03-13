@@ -1,1 +1,563 @@
-Hello World...
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Vishal Musale...</title>
+    <meta name="description" content="Adrian Lange | scientist + developer">
+    <meta name="author" content="Vishal Musale">
+    <meta name="keywords" content="Vishal, Vishal, software, developer, engineer, Long Beach, California State University Long Beach, M.S., MS, Computer Sceince, resume, CV, publications, Java, python, C++, C, SQL, MySQL, JavaScript, math, statistics, science">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="./resources/css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./resources/normalize.css" type="text/css">
+    <link rel="stylesheet" href="./resources/skeleton.css" type="text/css">
+    <link rel="stylesheet" href="./resources/spinner.css" type="text/css">
+    <link rel="stylesheet" href="./resources/main_new.css" type="text/css">
+
+    <link rel="icon" href="http://adrianlange.com/favicon.ico">
+<style type="text/css"></style><script type="text/javascript" src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"></script></head>
+<body>
+
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="twelve columns">
+                    <h1 class="text-center">Vishal Musale</h1>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+
+    <div class="navbar-spacer"></div>
+
+    <!-- Smaller screen nav -->
+    <nav class="navbar-small">
+        <div class="container">
+            <div class="row">
+                <div class="two columns">
+                    <a class="navbar-link" href="http://adrianlange.com/#content-home"><p class="text-center">home</p></a>
+                </div>
+                <div class="two columns">
+                    <a class="navbar-link" href="http://adrianlange.com/#content-development"><p class="text-center">development</p></a>
+                </div>
+                <div class="two columns">
+                    <a class="navbar-link" href="http://adrianlange.com/#content-resume"><p class="text-center">résumé</p></a>
+                </div>
+                <div class="two columns">
+                    <a class="navbar-link" href="http://adrianlange.com/#content-contact"><p class="text-center">contact</p></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Bigger screen nav -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+            <ul class="navbar-list center">
+                <li class="navbar-item">
+                    <a class="navbar-link" href="http://adrianlange.com/#content-home">home</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link" href="http://adrianlange.com/#content-development">development</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link" href="http://adrianlange.com/#content-resume">résumé</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link" href="http://adrianlange.com/#content-contact">contact</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content sections -->
+    <section id="content-home">
+        <div class="container">
+            <h2>home</h2>
+
+            <div class="row">
+                <div class="twelve columns">
+                    <h4 class="section-title">about me</h4>
+                    <div class="line"></div>
+                    <p class="justify">
+                        I am a data engineer/scientist with a Ph.D. in computational quantum chemistry.
+                        I enjoy machine learning, parallel computing, web programming, physics and chemistry,
+                        and all things data science.
+                    </p>
+                    <p class="justify">
+                        I work at Apple on the data stack/back-end of a variety of famous products,
+                        but my background is filled with several other interesting computational and scientific
+                        research endeavors that are just a bit less well-known.
+                        I also maintain a few hobby coding and research projects that I work on
+                        whenever I find some spare time and energy, such as an experimental neural network code
+                        and a parallel JavaScript library for math and stats.
+                    </p>
+                </div>
+            </div>
+
+
+            <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+            <div class="row">
+                <div class="twelve columns">
+                    <h4 id="development-mathworkers" class="section-title">parallel JavaScript math library</h4>
+                    <div class="line"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="six columns">
+                    <div class="thumbnail-wrapper not-loaded">
+                        <div class="spinner"><div></div></div>
+                        <img src="" id="thumbnail-mathworkers" alt="mathworkers" class="u-full-width hidden thumbnail">
+                    </div>
+                </div>
+                <div class="six columns">
+                    <p class="justify">
+                        I am writing a parallel JavaScript math and statistics library built around HTML5
+                        Web Workers and the Node.js cluster library.
+                        The project is called MathWorkersJS, and it's open-source.
+                        MathWorkersJS is my personal hobby project I'm doing for fun but also to potentially
+                        make a useful tool for the web community.
+                    </p>
+                    <p class="justify">
+                        The motivation behind MathWorkersJS is to introduce some degree of
+                        multi-core parallelism into JavaScript mathematical computations, whether
+                        they are client-side/in-browser or server-side.
+                        While other good JavaScript math libraries exist, none (as far as I know)
+                        seem to take advantage of the fairly new feature of HTML5 to
+                        spawn Web Workers to help with CPU intensive computations.
+                        There seems to be a similar void for parallelism in Node.js with these libraries, too.
+                        That's where MathWorkersJS comes in.
+                    </p>
+                    <p class="justify">
+                        So far in tests,
+                        I have been able to demonstrate 2-3x speedups with 4 workers for some common
+                        linear algebra operations, like matrix-matrix multiplies.
+                        More to come in the future!
+                    </p>
+                    <p class="text-center">
+                        JavaScript, HTML5, Node.js
+                    </p>
+                    <a href="https://github.com/awlange/mathworkers" target="_blank" class="center blue">
+                        <button>view on GitHub</button>
+                    </a>
+                </div>
+            </div>
+
+            <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+            
+            <div class="line-close"></div>
+        </div>
+    </section>
+
+    <section id="content-resume">
+        <div class="container">
+            <h2>résumé</h2>
+
+            <div class="row">
+                <div class="offset-by-two two columns"><a href="http://adrianlange.com/#resume-employment" class="text-center blue"><p>employment</p></a></div>
+                <div class="two columns"><a href="http://adrianlange.com/#resume-education" class="text-center blue"><p>education</p></a></div>
+                <div class="two columns"><a href="http://adrianlange.com/#resume-skills" class="text-center blue"><p>skills</p></a></div>
+                <div class="two columns"><a href="http://adrianlange.com/#resume-projects" class="text-center blue"><p>projects</p></a></div>
+            </div>
+            <div class="row">
+                <div class="offset-by-two two columns"><a href="http://adrianlange.com/#resume-contributions" class="text-center blue"><p>contributions</p></a></div>
+                <div class="two columns"><a href="http://adrianlange.com/#resume-awards" class="text-center blue"><p>honors &amp; awards</p></a></div>
+                <div class="two columns"><a href="http://adrianlange.com/#resume-publications" class="text-center blue"><p>publications</p></a></div>
+                <div class="two columns"><a href="http://adrianlange.com/file/AdrianLangePhD_resume.pdf" target="_blank" class="text-center blue"><p>download</p></a></div>
+            </div>
+
+            <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+            <div>
+                <div class="row">
+                    <div class="twelve columns">
+                        <h4 id="resume-employment" class="section-title">employment</h4>
+                        <div class="line"> </div>
+                    </div>
+                </div>
+
+                <!-- === -->
+
+                <div class="row">
+                    <div class="twelve columns">
+                        <p>
+                            <strong>Student Asistant, Event Services</strong>
+                            <span class="u-pull-right">February 2015 — Present</span>
+                            <br>
+                            <span class="italic">California State University Long Beach</span>
+                            <span class="italic u-pull-right">Long Beach, CA</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="twelve columns">
+                        <ul>
+                            <li>Organizing special events for the Department, including meeting with customers, planning and coordinating special events operations with campus Police.</span></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- === -->
+
+                <div class="row">
+                    <div class="twelve columns">
+                        <p>
+                            <strong>Software Engineer</strong>
+                            <span class="u-pull-right">September 2012 — May 2013</span>
+                            <br>
+                            <span class="italic">Agiliad Technology Pvt. Ltd.</span>
+                            <span class="italic u-pull-right">Pune, India</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="twelve columns">
+                        <ul>
+                            <li>Worked with Software Engineers on Development of Applications in Python and bug fixing.</li>
+                            <!--<li>Built web app to display inter-client clustering-->
+                                <!--and user interaction frequency trends <span class="italic">[Python, JavaScript, Cassandra]</span></li>-->
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- === -->
+
+                
+
+
+            </div>
+
+            <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+            <div>
+                <div class="row">
+                    <div class="twelve columns">
+                        <h4 id="resume-education" class="section-title">education</h4>
+                        <div class="line"> </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="twelve columns">
+                        <p>
+                            <strong>M.S. Computer Science</strong>
+                            <span class="u-pull-right">Fall 2013 — Fall 2016</span>
+                            <br>
+                            <span class="italic">California State University Long Beach</span>
+                            <span class="u-pull-right italic">Long Beach, CA</span>
+			    <br>
+			    <span class="italic">GPA : 3.5 &nbsp;(In Major)</span>
+                            <br>
+                            
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="twelve columns">
+                        <p>
+                            <strong>B.E. Computer Engineer</strong>
+                            <span class="u-pull-right">August 2008 — December 2012</span>
+                            <br>
+                            <span class="italic">University of Mumbai</span>
+                            <span class="u-pull-right italic">Mumbai, India</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+            <div>
+                <div class="row">
+                    <div class="twelve columns">
+                        <h4 id="resume-skills" class="section-title">technical skills</h4>
+                        <div class="line"> </div>
+                    </div>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Programming Languages</td>
+                            <td>Java, Python, C#, C++, C</td>
+                        </tr>
+                        <tr>
+                            <td>Web Technologies</td>
+                            <td>Php, HTML, CSS, JavaScript, jQuery</td>
+                        </tr>
+                        <tr>
+                            <td>Databases/Storage</td>
+                            <td>MySQL, Sqlite</td>
+                        </tr>
+                        <tr>
+                            <td>Productivity Tools</td>
+                            <td>git, SVN</td>
+                        </tr>
+                        <tr>
+                            <td>Software Engineering</td>
+                            <td>Test driven development, architecture design, code review, agile dev</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+            <div>
+                <div class="row">
+                    <div class="twelve columns">
+                        <h4 id="resume-projects" class="section-title">projects &amp; additional experience</h4>
+                        <div class="line"> </div>
+                        
+                    </div>
+                </div>
+
+                <!-- === -->
+
+                <div class="row">
+                    <div class="nine columns">
+                        <a href="https://github.com/awlange/brainsparks" target="_blank" class="link">
+                            <p>BrainSparks and Calrissian</p>
+                        </a>
+                    </div>
+                    <div class="three columns">
+                        <p class="u-pull-right">2015 — present</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="twelve columns">
+                        <p class="resume-subtext">
+                            Experimental neural network and deep learning library;
+                            SGD and backpropagation analytic gradient implemented from scratch for
+                            multi-layer perceptron, 1-D convolution net, particle network (my own invented flavor of ANN);
+                            exploring data parallelization via Spark and GPU acceleration
+                            <span class="italic">[Python, Spark, numpy, PyCUDA, PyOpenCL]</span>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- === -->
+
+                <div class="row">
+                    <div class="nine columns">
+                        <a href="http://www.isitbacon.net/" target="_blank" class="link">
+                            <p>BaconNet</p>
+                        </a>
+                    </div>
+                    <div class="three columns">
+                        <p class="u-pull-right">2015</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="twelve columns">
+                        <p class="resume-subtext">
+                            Convolution neural network model for distinguishing between pictures of bacon and/or Kevin Bacon;
+                            web app interface for uploading and classifying pictures:
+                            <a href="http://www.isitbacon.net/" target="_blank" class="link">isitbacon.net</a>
+                            <span class="italic">[Python, Flask, Lasagne, Theano, HTML, CSS, JavaScript, Twitter Bootstrap]</span>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- === -->
+
+                <div class="row">
+                    <div class="nine columns">
+                        <a href="http://www.mathworkersjs.org/" target="_blank" class="link">
+                            <p>MathWorkersJS</p>
+                        </a>
+                    </div>
+                    <div class="three columns">
+                        <p class="u-pull-right">2014 — present</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="twelve columns">
+                        <p class="resume-subtext">
+                            Open-source parallel JavaScript math and statistics library built around HTML5
+                            Web Workers and Node.js cluster library capable of speeding up computations on multi-core devices; accompanying
+                            documentation website: <a href="http://www.mathworkersjs.org/" class="link">mathworkersjs.org</a>,
+                            available for install <a href="https://www.npmjs.com/package/mathworkers" class="link">on npm</a>
+                            <span class="italic">[JavaScript, Node.js, HTML5, CSS/SCSS, Python, Flask, Apache Server]</span>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- === -->
+
+                <div class="row">
+                    <div class="nine columns">
+                        <a href="http://adrianlange.com/#header" target="_blank" class="link">
+                            <p>Personal Website</p>
+                        </a>
+                    </div>
+                    <div class="three columns">
+                        <p class="u-pull-right">2013 — present</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="twelve columns">
+                        <p class="resume-subtext">
+                            Full stack coding, back-end to front-end; dynamic blog database.
+                            <span class="italic">[HTML, CSS/SCSS, JavaScript/jQuery/Node.js, MySQL, Skeleton]</span>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- === -->
+
+                <div class="row">
+                    <div class="nine columns">
+                        <a href="http://projecteuler.net/profile/awgl.png" target="_blank" class="link">
+                            <p>Project Euler</p>
+                        </a>
+                    </div>
+                    <div class="three columns">
+                        <p class="u-pull-right">2013 — present</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="twelve columns">
+                        <p class="resume-subtext">
+                            Recreational mathematics and programming problems from
+                            <a href="http://projecteuler.net/" target="_blank" class="link">Project Euler</a>;
+                            currently solved more than <a href="http://projecteuler.net/profile/awgl.png" target="_blank" class="link">110 problems</a>
+                            <span class="italic">[Python, C++]</span>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- === -->
+
+                <div class="row">
+                    <div class="nine columns">
+                        <a href="https://github.com/awlange/fmo-ms-rmd" target="_blank" class="link">
+                            <p>FMO-MS-RMD</p>
+                        </a>
+                    </div>
+                    <div class="three columns">
+                        <p class="u-pull-right">2013</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="twelve columns">
+                        <p class="resume-subtext">
+                            Parallel interface to Q-Chem program for propagating chemically reactive proton transport
+                            simulations with analytic gradients; demonstrated scalability to &gt;200 CPUs
+                            <span class="italic">[C++, C, MPI]</span>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+           
+            <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+            <div>
+                <div class="row">
+                    <div class="twelve columns">
+                        <h4 id="resume-awards" class="section-title">honors &amp; awards</h4>
+                        <div class="line"> </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="eleven columns u-pull-left">Chair's Prime Choice in Computational Division at American Chemical Society Conference</div>
+                    <div class="one column u-pull-right">2013</div>
+                </div>
+                <div class="row">
+                    <div class="eleven columns u-pull-left">Presidential Fellowship from The Ohio State University Graduate School ($33,150)</div>
+                    <div class="one column u-pull-right">2012</div>
+                </div>
+                <div class="row">
+                    <div class="eleven columns u-pull-left">Chemical Computing Group Research Excellence Award from American Chemical Society ($1,150)</div>
+                    <div class="one column u-pull-right">2012</div>
+                </div>
+                <div class="row">
+                    <div class="eleven columns u-pull-left">Travel Fellowship to present at American Conference on Theoretical Chemistry ($600)</div>
+                    <div class="one column u-pull-right">2011</div>
+                </div>
+                <div class="row">
+                    <div class="eleven columns u-pull-left">Selected to attend Telluride School on Theoretical Chemistry ($850)</div>
+                    <div class="one column u-pull-right">2011</div>
+                </div>
+                <div class="row">
+                    <div class="eleven columns u-pull-left">U.S. Department of Energy Merit Scholarship for top poster presentation ($300)</div>
+                    <div class="one column u-pull-right">2010</div>
+                </div>
+                <div class="row">
+                    <div class="eleven columns u-pull-left">3rd place (out of ∼30) at Ohio State University Denman Undergraduate Research Forum ($300)</div>
+                    <div class="one column u-pull-right">2006</div>
+                </div>
+                <div class="row">
+                    <div class="eleven columns u-pull-left">American Society for Microbiology Undergraduate Research Fellowship ($4,000)</div>
+                    <div class="one column u-pull-right">2006</div>
+                </div>
+                <div class="row">
+                    <div class="eleven columns u-pull-left">Ohio State Arts &amp; Sciences Undergraduate Honors Research Scholarship ($3,500)</div>
+                    <div class="one column u-pull-right">2006</div>
+                </div>
+            </div>
+
+            <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+            
+            <div class="line-close"></div>
+        </div>
+    </section>
+
+    <section id="content-contact">
+        <div class="container">
+            <h2>contact</h2>
+
+            <div class="row">
+                <div class="twelve columns">
+                    <p class="text-center"><a href="mailto:musale.vishal@outlook.com target="_blank" class="blue">musale.vishal@outlook.com</a></p>
+                    <p class="text-center"><a href="https://www.linkedin.com/in/vishal-musale-a1382586" target="_blank" class="blue">LinkedIn</a></p>
+                    <p class="text-center"><a href="https://github.com/vishalmusale" target="_blank" class="blue">GitHub</a></p>
+                </div>
+            </div>
+
+            <div class="spacer-big"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="twelve columns">
+                    <img src="./resources/icon-science-small2.svg" class="icon center" alt="science" id="flask">
+                    <p class="text-center footnote">Developed By Vishal Musale</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script type="text/javascript" async="" src="./resources/ga.js"></script><script src="./resources/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-2.1.4.min.js"><\/script>');</script>
+    <script src="./resources/site.js"></script>
+
+    <!-- Analytics -->
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-46269729-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+
+</body></html>
